@@ -15,4 +15,4 @@ jobs:
       - checkout
       - run: go version
       - run: go env
-
+      - run: go test
