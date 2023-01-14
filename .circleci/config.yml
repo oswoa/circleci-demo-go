@@ -9,7 +9,7 @@ workflows:
 # ワークフローの中で実行するジョブの定義
 jobs:
   test:
-     docker:
+    docker:
       - image: cimg/go:1.19.4
     steps:
       - checkout
